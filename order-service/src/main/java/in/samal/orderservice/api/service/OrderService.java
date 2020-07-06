@@ -31,8 +31,8 @@ public class OrderService {
 		
 	}
 	
-	public void info(){
+	public void info(String name){
 		
-		System.out.println("Added  this method by developer-2");
+		System.out.println("Added  this method by developer-2"+name);
 	}
 }
