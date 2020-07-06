@@ -20,6 +20,7 @@ public class OrderService {
 	
 	public TransactionResponse saveOrder(Order order){
 		
+		System.out.println("Inside the orderservice class.....");
 		String message = NotificationUtil.sendEmail("utkal@gmail.com");
 		Order ord =  orderRepository.save(order);
 		return  new TransactionResponse(ord,message);
