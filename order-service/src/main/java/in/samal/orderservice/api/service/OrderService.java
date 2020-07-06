@@ -30,4 +30,9 @@ public class OrderService {
 		return orderRepository.findAll();
 		
 	}
+	
+	public void info(){
+		
+		System.out.println("Added  this method by developer-2");
+	}
 }
